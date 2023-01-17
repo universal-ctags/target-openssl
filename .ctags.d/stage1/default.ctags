@@ -1,0 +1,10 @@
+# This file is of extracting macro definitions.
+--langmap=C:+.h
+-o -
+--sort=no
+--languages=C
+--fields-C=+{macrodef}
+--fields=+{signature}
+--exclude=test
+--exclude=check-format-test-positives.c
+-R
